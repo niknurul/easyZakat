@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name" possiton="center">easyZakat </string>
+    <string name="about_text">easyZakat establish on Disember 2021 which aimed to help people to calculate their zakat payment for gold easily without storing any personal information</string>
+    <string name="developer_nik">Nik Nurul Simaa</string>
+    <string name="developer_emailNik">niksima01@gmail.com</string>
+    <string name="developer_positionNik">Developer </string>
+    <string name="developer_ain">Nurul Ain</string>
+    <string name="developer_emailAin">nurulain12@gmail.com</string>
+    <string name="developer_positionAin">Developer </string>
+    <string name="more_detail">For more detail please go to </string>
+    <string name="link">https://github.com</string>
+    <string name="copyright">Copyright &#169; 2021 easyZakat</string>
+
+    <string name="faq_name">FAQ</string>
+    <string name="dummyText1"><strong>QUESTION 1 : Who has to pay Zakat? </strong><br><br> Zakat is due on the wealth of any Muslim, young or old, male or female, that is held in savings for one calendar year and is more than the Nisab.
+    Example: If both you and your children have separate savings of 1000 dollars or more for one year, you must pay the Zakat on both accounts, not just yours. $25 for your savings, and $25 for your child’s.</br></br></string>
+
+
+    <string name="dummyText2"><strong>QUESTION 2 : Should I use the gold or silver nisab?</strong><br><br>The nisab calculated with the silver standard is significantly lower than its gold counterpart.
+
+    There are arguments for using either nisab value – many scholars say that it is better to use the silver nisab since it will increase the amount of charity distributed, others say that the gold nisab is closer to the nisab in use at the time of the blessed Prophet (peace be upon him).
+
+    However, if your assets consist entirely of gold, you must use the gold nisab, and similarly, if they consist entirely of silver then the silver nisab must be used.</br></br></string>
+
+
+</resources>

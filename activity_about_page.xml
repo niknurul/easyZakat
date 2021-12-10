@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constrainedHeight="false"
+    app:layout_constrainedWidth="false"
+    tools:context=".aboutPage">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/textView2"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="60dip"
+        app:srcCompat="@drawable/developer"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="265dp"
+        tools:srcCompat="@drawable/developer" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dip"
+        android:text="About Us"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="382dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:text="@string/about_text"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/textView9"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="180dip"
+        android:layout_marginTop="8dip"
+        app:srcCompat="@drawable/developer"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="265dp"
+        tools:srcCompat="@drawable/developer" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView4"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif"
+        android:text="@string/developer_nik"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:text="@string/developer_ain"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:linksClickable="true"
+        android:text="@string/more_detail"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="436dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_below="@id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dip"
+        android:layout_marginBottom="20dip"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:minHeight="48dp"
+        android:text="https://github.com/niknurul/easyZakat.git"
+        android:textAllCaps="false"
+        android:textColor="#2196F3" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="30dip"
+        android:layout_marginBottom="50dip"
+        android:text="@string/copyright" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:layout_centerHorizontal="true"
+        android:text="@string/developer_emailAin" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView8"
+        android:layout_centerHorizontal="true"
+        android:text="@string/developer_positionAin" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_centerHorizontal="true"
+        android:text="@string/developer_emailNik" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView10"
+        android:layout_centerHorizontal="true"
+        android:text="@string/developer_positionNik" />
+
+</RelativeLayout>
